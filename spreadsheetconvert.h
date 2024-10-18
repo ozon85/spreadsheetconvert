@@ -4,7 +4,7 @@
 namespace spreadsheetconvert
 {
 
-extern  "C" char convert(const char *srcName, const char *dstName, char * ErrorBuffer, uint16_t ErrorBufferSize=256);
+extern  "C" char convert(const char *srcName, const char *dstName, char * ErrorBuffer, unsigned short ErrorBufferSize=256);
 
 }
 
